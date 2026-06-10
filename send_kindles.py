@@ -425,7 +425,7 @@ def main():
         logger.critical('Missing SMTP_SERVER, EMAIL_USER or EMAIL_PASS in environment')
         sys.exit(1)
 
-    parser = argparse.ArgumentParser(...)
+    parser = argparse.ArgumentParser(description='Convert CBZ to EPUB and send to Kindle (batched)')
     parser.add_argument('--folder', type=Path, default=os.getenv('CBZ_FOLDER', r'D:\CBZ'))
     parser.add_argument('--profile', default=os.getenv('KCC_PROFILE', 'K810'))
     parser.add_argument('--kcc-cmd', default=os.getenv('KCC_CMD', 'kcc-c2e'))
