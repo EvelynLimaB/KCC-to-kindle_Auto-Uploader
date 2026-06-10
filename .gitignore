@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+kcc_work_*
+
+# Generated EPUBs
+*.epub
+
+# IDE
+.vscode/
+.idea/
